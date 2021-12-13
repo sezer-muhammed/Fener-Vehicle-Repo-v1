@@ -18,24 +18,17 @@ def main():
     node = rclpy.create_node("solo_cam_publisher")
     publisher = node.create_publisher(CompressedImage ,"cam/solo", 1)
     node.get_logger().info("This Node Stated")
-    #veri = CompressedImage()
     camera = jetson.utils.videoSource("csi://0")  
 
     br = CvBridge()
+
     while True:
-        #start = time.time()
         img = camera.Capture()
-        img = resize(img, (0.4, 0.4))
+        img = resize(img, (0.35, 0.35))
         np_img = jetson.utils.cudaToNumpy(img)
         jetson.utils.cudaDeviceSynchronize()
         msg = br.cv2_to_compressed_imgmsg(np_img)
-        
-
-        
         publisher.publish(msg)
-        #fin = time.time()
-        #print(1 / (fin - start))
-
 
 if __name__ == '__main__':
     main()
