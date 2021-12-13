@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../build/fener_package/fener_package.egg-info/PKG-INFO
+../build/fener_package/fener_package.egg-info/SOURCES.txt
+../build/fener_package/fener_package.egg-info/dependency_links.txt
+../build/fener_package/fener_package.egg-info/entry_points.txt
+../build/fener_package/fener_package.egg-info/requires.txt
+../build/fener_package/fener_package.egg-info/top_level.txt
+../build/fener_package/fener_package.egg-info/zip-safe
+fener_package/__init__.py
+resource/fener_package
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

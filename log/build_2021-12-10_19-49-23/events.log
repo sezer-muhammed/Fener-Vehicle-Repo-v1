@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.003979] (fener_package) JobQueued: {'identifier': 'fener_package', 'dependencies': OrderedDict()}
+[0.004246] (fener_package) JobStarted: {'identifier': 'fener_package'}
+[0.098188] (-) TimerEvent: {}
+[0.199744] (-) TimerEvent: {}
+[0.300709] (-) TimerEvent: {}
+[0.401427] (-) TimerEvent: {}
+[0.502283] (-) TimerEvent: {}
+[0.524830] (fener_package) JobEnded: {'identifier': 'fener_package', 'rc': 0}
+[0.528808] (-) EventReactorShutdown: {}

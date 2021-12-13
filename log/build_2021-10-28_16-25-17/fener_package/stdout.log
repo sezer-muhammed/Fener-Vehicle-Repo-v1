@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/fener_package/fener_package.egg-info
+writing ../../build/fener_package/fener_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/fener_package/fener_package.egg-info/dependency_links.txt
+writing entry points to ../../build/fener_package/fener_package.egg-info/entry_points.txt
+writing requirements to ../../build/fener_package/fener_package.egg-info/requires.txt
+writing top-level names to ../../build/fener_package/fener_package.egg-info/top_level.txt
+writing manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fener/ros2_fener/build/fener_package/build
+creating /home/fener/ros2_fener/build/fener_package/build/lib
+creating /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+copying fener_package/__init__.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+copying fener_package/fener_driver_node.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+running install
+running install_lib
+creating /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/__init__.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_driver_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_driver_node.py to fener_driver_node.cpython-36.pyc
+running install_data
+creating /home/fener/ros2_fener/install/fener_package/share/ament_index
+creating /home/fener/ros2_fener/install/fener_package/share/ament_index/resource_index
+creating /home/fener/ros2_fener/install/fener_package/share/ament_index/resource_index/packages
+copying resource/fener_package -> /home/fener/ros2_fener/install/fener_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/fener/ros2_fener/install/fener_package/share/fener_package
+running install_egg_info
+Copying ../../build/fener_package/fener_package.egg-info to /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package-0.0.0-py3.6.egg-info
+running install_scripts
+Installing driver script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+writing list of installed files to '/home/fener/ros2_fener/build/fener_package/install.log'

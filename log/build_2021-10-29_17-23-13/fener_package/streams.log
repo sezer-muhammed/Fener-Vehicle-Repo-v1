@@ -1,0 +1,24 @@
+[1.694s] Invoking command in '/home/fener/ros2_fener/build/fener_package': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fener/ros2_fener/install/fener_package --editable --build-directory /home/fener/ros2_fener/build/fener_package/build --no-deps install_data --install-dir /home/fener/ros2_fener/install/fener_package
+[2.951s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.951s]   % (opt, underscore_opt))
+[2.952s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.953s]   % (opt, underscore_opt))
+[3.229s] running develop
+[4.001s] running egg_info
+[4.002s] writing fener_package.egg-info/PKG-INFO
+[4.003s] writing dependency_links to fener_package.egg-info/dependency_links.txt
+[4.003s] writing entry points to fener_package.egg-info/entry_points.txt
+[4.004s] writing requirements to fener_package.egg-info/requires.txt
+[4.004s] writing top-level names to fener_package.egg-info/top_level.txt
+[4.192s] reading manifest file 'fener_package.egg-info/SOURCES.txt'
+[4.199s] writing manifest file 'fener_package.egg-info/SOURCES.txt'
+[4.496s] running build_ext
+[4.496s] Creating /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener-package.egg-link (link to .)
+[4.500s] Installing bno055_pub script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[4.501s] Installing driver script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[4.501s] Installing lidar_pub script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[4.502s] Installing object_detector script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[4.503s] 
+[4.503s] Installed /home/fener/ros2_fener/build/fener_package
+[4.504s] running install_data
+[4.648s] Invoked command in '/home/fener/ros2_fener/build/fener_package' returned '0': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fener/ros2_fener/install/fener_package --editable --build-directory /home/fener/ros2_fener/build/fener_package/build --no-deps install_data --install-dir /home/fener/ros2_fener/install/fener_package

@@ -1,0 +1,7 @@
+[console_scripts]
+bno055_pub = fener_package.fener_bno055_pub_node:main
+driver = fener_package.fener_arduino_comm:main
+lidar_pub = fener_package.fener_lidar_pub_node:main
+object_detector = fener_package.fener_object_detector_node:main
+solo_cam_pub = fener_package.fener_solo_cam_pub_node:main
+

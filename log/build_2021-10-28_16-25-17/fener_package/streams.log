@@ -1,0 +1,41 @@
+[2.192s] Invoking command in '/home/fener/ros2_fener/src/fener_package': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fener_package build --build-base /home/fener/ros2_fener/build/fener_package/build install --prefix /home/fener/ros2_fener/install/fener_package --record /home/fener/ros2_fener/build/fener_package/install.log --single-version-externally-managed
+[3.759s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.759s]   % (opt, underscore_opt))
+[3.762s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.763s]   % (opt, underscore_opt))
+[3.985s] running egg_info
+[3.989s] creating ../../build/fener_package/fener_package.egg-info
+[3.991s] writing ../../build/fener_package/fener_package.egg-info/PKG-INFO
+[3.992s] writing dependency_links to ../../build/fener_package/fener_package.egg-info/dependency_links.txt
+[3.993s] writing entry points to ../../build/fener_package/fener_package.egg-info/entry_points.txt
+[3.995s] writing requirements to ../../build/fener_package/fener_package.egg-info/requires.txt
+[3.995s] writing top-level names to ../../build/fener_package/fener_package.egg-info/top_level.txt
+[3.996s] writing manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+[4.201s] reading manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+[4.209s] writing manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+[4.210s] running build
+[4.212s] running build_py
+[4.213s] creating /home/fener/ros2_fener/build/fener_package/build
+[4.215s] creating /home/fener/ros2_fener/build/fener_package/build/lib
+[4.215s] creating /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+[4.216s] copying fener_package/__init__.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+[4.217s] copying fener_package/fener_driver_node.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+[4.218s] running install
+[4.219s] running install_lib
+[4.222s] creating /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[4.224s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/__init__.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[4.224s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_driver_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[4.226s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/__init__.py to __init__.cpython-36.pyc
+[4.228s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_driver_node.py to fener_driver_node.cpython-36.pyc
+[4.229s] running install_data
+[4.232s] creating /home/fener/ros2_fener/install/fener_package/share/ament_index
+[4.233s] creating /home/fener/ros2_fener/install/fener_package/share/ament_index/resource_index
+[4.234s] creating /home/fener/ros2_fener/install/fener_package/share/ament_index/resource_index/packages
+[4.236s] copying resource/fener_package -> /home/fener/ros2_fener/install/fener_package/share/ament_index/resource_index/packages
+[4.237s] copying package.xml -> /home/fener/ros2_fener/install/fener_package/share/fener_package
+[4.238s] running install_egg_info
+[4.245s] Copying ../../build/fener_package/fener_package.egg-info to /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package-0.0.0-py3.6.egg-info
+[4.250s] running install_scripts
+[4.355s] Installing driver script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[4.357s] writing list of installed files to '/home/fener/ros2_fener/build/fener_package/install.log'
+[4.508s] Invoked command in '/home/fener/ros2_fener/src/fener_package' returned '0': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fener_package build --build-base /home/fener/ros2_fener/build/fener_package/build install --prefix /home/fener/ros2_fener/install/fener_package --record /home/fener/ros2_fener/build/fener_package/install.log --single-version-externally-managed

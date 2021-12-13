@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000560] (fener_package) JobQueued: {'identifier': 'fener_package', 'dependencies': OrderedDict()}
+[0.004271] (fener_package) JobStarted: {'identifier': 'fener_package'}
+[0.103745] (-) TimerEvent: {}
+[0.204553] (-) TimerEvent: {}
+[0.305518] (-) TimerEvent: {}
+[0.406222] (-) TimerEvent: {}
+[0.506956] (-) TimerEvent: {}
+[0.608007] (-) TimerEvent: {}
+[0.708748] (-) TimerEvent: {}
+[0.809477] (-) TimerEvent: {}
+[0.910180] (-) TimerEvent: {}
+[1.010920] (-) TimerEvent: {}
+[1.111620] (-) TimerEvent: {}
+[1.212373] (-) TimerEvent: {}
+[1.313102] (-) TimerEvent: {}
+[1.413814] (-) TimerEvent: {}
+[1.514586] (-) TimerEvent: {}
+[1.618381] (-) TimerEvent: {}
+[1.639825] (fener_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fener_package', 'build', '--build-base', '/home/fener/ros2_fener/build/fener_package/build', 'install', '--prefix', '/home/fener/ros2_fener/install/fener_package', '--record', '/home/fener/ros2_fener/build/fener_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/fener/ros2_fener/src/fener_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'fener', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '6363', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'OLDPWD': '/home/fener', 'HOME': '/home/fener', 'DESKTOP_SESSION': 'LXDE', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ux-LXDE.mandatory.path', 'COLCON_PREFIX_PATH': '/home/fener/ros2_fener/install', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'fener', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ux-LXDE.default.path', 'ROS_VERSION': '2', 'USERNAME': 'fener', 'XDG_SESSION_ID': '1', 'TERM': 'xterm-256color', 'SAL_USE_VCLPLUGIN': 'gtk', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '1', 'PATH': '/opt/ros/eloquent/bin:/home/fener/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_MENU_PREFIX': 'lxde-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXDE', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CONFIG_HOME': '/home/fener/.config', 'XDG_SESSION_DESKTOP': 'ux-LXDE', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_DATA_HOME': '/home/fener/.local/share', 'AMENT_PREFIX_PATH': '/home/fener/ros2_fener/install/fener_package:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/tmp/ssh-CtziUE0neQvm/agent.6200', 'LC_NAME': 'tr_TR.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ux-LXDE', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', '_LXSESSION_PID': '6200', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'XDG_VTNR': '1', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/fener/ros2_fener/build/fener_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ux-LXDE:/etc/xdg', 'LC_NUMERIC': 'tr_TR.UTF-8', 'PYTHONPATH': '/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '5202'}, 'shell': False}
+[1.718715] (-) TimerEvent: {}
+[1.819702] (-) TimerEvent: {}
+[1.920616] (-) TimerEvent: {}
+[2.022366] (-) TimerEvent: {}
+[2.128613] (-) TimerEvent: {}
+[2.229331] (-) TimerEvent: {}
+[2.330046] (-) TimerEvent: {}
+[2.430775] (-) TimerEvent: {}
+[2.531477] (-) TimerEvent: {}
+[2.632177] (-) TimerEvent: {}
+[2.732937] (-) TimerEvent: {}
+[2.833673] (-) TimerEvent: {}
+[2.888841] (fener_package) StderrLine: {'line': b"/home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.889787] (fener_package) StderrLine: {'line': b'  % (opt, underscore_opt))\n'}
+[2.890997] (fener_package) StderrLine: {'line': b"/home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[2.891559] (fener_package) StderrLine: {'line': b'  % (opt, underscore_opt))\n'}
+[2.933885] (-) TimerEvent: {}
+[3.034616] (-) TimerEvent: {}
+[3.068554] (fener_package) StdoutLine: {'line': b'running egg_info\n'}
+[3.071862] (fener_package) StdoutLine: {'line': b'writing ../../build/fener_package/fener_package.egg-info/PKG-INFO\n'}
+[3.073607] (fener_package) StdoutLine: {'line': b'writing dependency_links to ../../build/fener_package/fener_package.egg-info/dependency_links.txt\n'}
+[3.074435] (fener_package) StdoutLine: {'line': b'writing entry points to ../../build/fener_package/fener_package.egg-info/entry_points.txt\n'}
+[3.074903] (fener_package) StdoutLine: {'line': b'writing requirements to ../../build/fener_package/fener_package.egg-info/requires.txt\n'}
+[3.075358] (fener_package) StdoutLine: {'line': b'writing top-level names to ../../build/fener_package/fener_package.egg-info/top_level.txt\n'}
+[3.134824] (-) TimerEvent: {}
+[3.235538] (-) TimerEvent: {}
+[3.242226] (fener_package) StdoutLine: {'line': b"reading manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'\n"}
+[3.248908] (fener_package) StdoutLine: {'line': b"writing manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'\n"}
+[3.249820] (fener_package) StdoutLine: {'line': b'running build\n'}
+[3.250346] (fener_package) StdoutLine: {'line': b'running build_py\n'}
+[3.250954] (fener_package) StdoutLine: {'line': b'copying fener_package/fener_lidar_pub_node.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package\n'}
+[3.252516] (fener_package) StdoutLine: {'line': b'running install\n'}
+[3.254302] (fener_package) StdoutLine: {'line': b'running install_lib\n'}
+[3.257421] (fener_package) StdoutLine: {'line': b'copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_lidar_pub_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package\n'}
+[3.259482] (fener_package) StdoutLine: {'line': b'byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_lidar_pub_node.py to fener_lidar_pub_node.cpython-36.pyc\n'}
+[3.261168] (fener_package) StdoutLine: {'line': b'running install_data\n'}
+[3.264571] (fener_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.271843] (fener_package) StdoutLine: {'line': b"removing '/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[3.273497] (fener_package) StdoutLine: {'line': b'Copying ../../build/fener_package/fener_package.egg-info to /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package-0.0.0-py3.6.egg-info\n'}
+[3.277498] (fener_package) StdoutLine: {'line': b'running install_scripts\n'}
+[3.335761] (-) TimerEvent: {}
+[3.361124] (fener_package) StdoutLine: {'line': b'Installing driver script to /home/fener/ros2_fener/install/fener_package/lib/fener_package\n'}
+[3.361967] (fener_package) StdoutLine: {'line': b'Installing lidar_pub script to /home/fener/ros2_fener/install/fener_package/lib/fener_package\n'}
+[3.362692] (fener_package) StdoutLine: {'line': b'Installing object_detector script to /home/fener/ros2_fener/install/fener_package/lib/fener_package\n'}
+[3.363944] (fener_package) StdoutLine: {'line': b"writing list of installed files to '/home/fener/ros2_fener/build/fener_package/install.log'\n"}
+[3.436015] (-) TimerEvent: {}
+[3.481957] (fener_package) CommandEnded: {'returncode': 0}
+[3.536349] (-) TimerEvent: {}
+[3.542877] (fener_package) JobEnded: {'identifier': 'fener_package', 'rc': 0}
+[3.545958] (-) EventReactorShutdown: {}

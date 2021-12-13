@@ -1,0 +1,9 @@
+source;share/fener_package/hook/pythonpath.ps1
+source;share/fener_package/hook/pythonpath.dsv
+source;share/fener_package/hook/pythonpath.sh
+source;share/fener_package/hook/ament_prefix_path.ps1
+source;share/fener_package/hook/ament_prefix_path.dsv
+source;share/fener_package/hook/ament_prefix_path.sh
+source;../../build/fener_package/share/fener_package/hook/pythonpath_develop.ps1
+source;../../build/fener_package/share/fener_package/hook/pythonpath_develop.dsv
+source;../../build/fener_package/share/fener_package/hook/pythonpath_develop.sh

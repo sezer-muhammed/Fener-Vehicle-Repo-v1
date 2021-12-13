@@ -1,0 +1,52 @@
+[1.715s] Invoking command in '/home/fener/ros2_fener/build/fener_package': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fener/ros2_fener/install/fener_package --uninstall --editable --build-directory /home/fener/ros2_fener/build/fener_package/build
+[2.978s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.978s]   % (opt, underscore_opt))
+[2.979s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.980s]   % (opt, underscore_opt))
+[3.250s] running develop
+[4.022s] Removing /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener-package.egg-link (link to .)
+[4.144s] Invoked command in '/home/fener/ros2_fener/build/fener_package' returned '0': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fener/ros2_fener/install/fener_package --uninstall --editable --build-directory /home/fener/ros2_fener/build/fener_package/build
+[4.148s] Invoking command in '/home/fener/ros2_fener/src/fener_package': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fener_package build --build-base /home/fener/ros2_fener/build/fener_package/build install --prefix /home/fener/ros2_fener/install/fener_package --record /home/fener/ros2_fener/build/fener_package/install.log --single-version-externally-managed
+[5.396s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.396s]   % (opt, underscore_opt))
+[5.398s] /home/fener/.local/lib/python3.6/site-packages/setuptools/dist.py:700: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.399s]   % (opt, underscore_opt))
+[5.569s] running egg_info
+[5.572s] writing ../../build/fener_package/fener_package.egg-info/PKG-INFO
+[5.574s] writing dependency_links to ../../build/fener_package/fener_package.egg-info/dependency_links.txt
+[5.575s] writing entry points to ../../build/fener_package/fener_package.egg-info/entry_points.txt
+[5.576s] writing requirements to ../../build/fener_package/fener_package.egg-info/requires.txt
+[5.576s] writing top-level names to ../../build/fener_package/fener_package.egg-info/top_level.txt
+[5.777s] reading manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+[5.784s] writing manifest file '../../build/fener_package/fener_package.egg-info/SOURCES.txt'
+[5.785s] running build
+[5.786s] running build_py
+[5.794s] copying fener_package/fener_solo_cam_pub_node.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+[5.799s] copying fener_package/fener_lidar_pub_node.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+[5.801s] copying fener_package/fener_bno055_pub_node.py -> /home/fener/ros2_fener/build/fener_package/build/lib/fener_package
+[5.802s] running install
+[5.804s] running install_lib
+[5.808s] creating /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[5.808s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/__init__.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[5.809s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_solo_cam_pub_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[5.809s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_lidar_pub_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[5.810s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_object_detector_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[5.812s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_driver_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[5.813s] copying /home/fener/ros2_fener/build/fener_package/build/lib/fener_package/fener_bno055_pub_node.py -> /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package
+[5.815s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/__init__.py to __init__.cpython-36.pyc
+[5.816s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_solo_cam_pub_node.py to fener_solo_cam_pub_node.cpython-36.pyc
+[5.817s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_lidar_pub_node.py to fener_lidar_pub_node.cpython-36.pyc
+[5.818s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_object_detector_node.py to fener_object_detector_node.cpython-36.pyc
+[5.827s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_driver_node.py to fener_driver_node.cpython-36.pyc
+[5.829s] byte-compiling /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package/fener_bno055_pub_node.py to fener_bno055_pub_node.cpython-36.pyc
+[5.830s] running install_data
+[5.836s] running install_egg_info
+[5.846s] Copying ../../build/fener_package/fener_package.egg-info to /home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages/fener_package-0.0.0-py3.6.egg-info
+[5.853s] running install_scripts
+[5.938s] Installing bno055_pub script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[5.939s] Installing driver script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[5.940s] Installing lidar_pub script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[5.940s] Installing object_detector script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[5.941s] Installing solo_cam_pub script to /home/fener/ros2_fener/install/fener_package/lib/fener_package
+[5.942s] writing list of installed files to '/home/fener/ros2_fener/build/fener_package/install.log'
+[6.056s] Invoked command in '/home/fener/ros2_fener/src/fener_package' returned '0': PYTHONPATH=/home/fener/ros2_fener/install/fener_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fener_package build --build-base /home/fener/ros2_fener/build/fener_package/build install --prefix /home/fener/ros2_fener/install/fener_package --record /home/fener/ros2_fener/build/fener_package/install.log --single-version-externally-managed
