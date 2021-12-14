@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float32MultiArray, Int8MultiArray
+from std_msgs.msg import Float32MultiArray, Int8MultiArray, Int64MultiArray
 import numpy as np
 import time
 import serial
 from os import system
 
-KEY__ANGLE_MULTIPLIER = 400
+KEY_ANGLE_MULTIPLIER = 400
 KEY_SPEED_MULTIPLIER = 30
 KEY_ANGLE_BNO_MULTIPLIER = 25
 
@@ -26,20 +26,40 @@ class MyNode(Node):
         self.key_angle = 0
         self.key_speed = 0
 
-        self.encoer = np.array([0, 0, 0, 0])
+        self.old_encoder = np.array([0, 0, 0, 0])
+        self.encoder = np.array([0, 0, 0, 0])
+        self.total_encoder = np.array([0, 0, 0, 0], np.int64)
         self.bno055_heading = 0
         self.keys = [0, 0, 0, 0, 0, 0, 0]
  
+        self.encoder_msg = Int64MultiArray()
+
         self.create_subscription(Float32MultiArray, "BNO055/all", self.bno055_callback, 1)
         self.create_subscription(Int8MultiArray, "/drive_command/keyboard", self.keyboard_callback, 1)
+
+        self.encoder_publisher = self.create_publisher(Int64MultiArray, "Arduino/encoder", 1)
 
         self.create_timer(0.01, self.timer_callback)
 
     def timer_callback(self):
         
         self.keyboard_packet[0:3] = [self.key_speed, min(3000, max(0, self.key_angle + KEY_ANGLE_BNO_MULTIPLIER * (self.aim_angle - self.bno055_heading))), self.bno055_heading%360]
-
+        
+        self.old_encoder = self.encoder
         self.encoder = self.send_to_arduino(self.keyboard_commands, self.keyboard_packet)
+
+        diff = self.encoder - self.old_encoder
+        diff[diff > 0] = 0
+        diff[diff < 0] = 255
+
+        self.total_encoder = self.total_encoder + self.encoder + diff
+
+        self.encoder_publisher.publish(self.encoder_msg)
+
+        self.encoder_msg.data = self. total_encoder.tolist()
+
+
+
         debug_data = self.ard.readline().decode()
 
 
@@ -67,7 +87,7 @@ class MyNode(Node):
         if (keys[1] - keys[3]) != 0:
             self.aim_angle = self.bno055_heading
         self.key_speed = int(self.speed_mul * KEY_SPEED_MULTIPLIER * keys[0] * (1 - keys[2]))
-        self.key_angle = int(1500 - (keys[1] - keys[3]) * KEY__ANGLE_MULTIPLIER) # mid is 1500
+        self.key_angle = int(1500 - (keys[1] - keys[3]) * KEY_ANGLE_MULTIPLIER) # mid is 1500
 
     def bno055_callback(self, msg):
         self.bno055_heading = int(msg.data[3])
