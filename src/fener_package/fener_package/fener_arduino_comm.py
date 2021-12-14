@@ -50,7 +50,7 @@ class MyNode(Node):
 
         diff = self.encoder - self.old_encoder
         diff[diff > 0] = 0
-        diff[diff < 0] = 255
+        diff[diff < 0] = 254
 
         self.total_encoder = self.total_encoder + self.encoder + diff
 
