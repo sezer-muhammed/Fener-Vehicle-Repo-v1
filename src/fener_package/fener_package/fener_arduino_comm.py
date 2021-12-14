@@ -29,6 +29,7 @@ class MyNode(Node):
         self.old_encoder = np.array([0, 0, 0, 0])
         self.encoder = np.array([0, 0, 0, 0])
         self.total_encoder = np.array([0, 0, 0, 0], np.int64)
+        self.total_diff = np.array([0, 0, 0, 0])
         self.bno055_heading = 0
         self.keys = [0, 0, 0, 0, 0, 0, 0]
  
@@ -52,7 +53,9 @@ class MyNode(Node):
         diff[diff > 0] = 0
         diff[diff < 0] = 254
 
-        self.total_encoder = self.total_encoder + self.encoder + diff
+        self.total_diff = self.total_diff + diff
+
+        self.total_encoder = self.encoder + self.total_diff
 
         self.encoder_publisher.publish(self.encoder_msg)
 
