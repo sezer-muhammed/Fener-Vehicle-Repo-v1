@@ -16,9 +16,12 @@ def main(args=None):
     lidar_node = rclpy.create_node("RPLidar_sensor")
     publisher = lidar_node.create_publisher(Float32MultiArray, "Lidar/raw", 1)
     lidar_node.get_logger().info("RP Lidar Started!")
-    #scan_res.header = lidar_node.get_clock().now()
+    
     for i, scan in enumerate(lidar.iter_scans()):
         scan = np.array(scan)[:, 1:]
+    
+        #bu veriler lidara göre, bunun aracın merkezine göre olacak hale çevirmek lazım
+    
         scan = scan.flatten()
         scan_res.data = list(scan)
         publisher.publish(scan_res)
