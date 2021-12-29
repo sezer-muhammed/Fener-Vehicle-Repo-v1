@@ -1,0 +1,22 @@
+[0.489s] Invoking command in '/home/sezer/FENER/ros2_fener/build/fener_package': PYTHONPATH=/home/sezer/FENER/ros2_fener/install/fener_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/FENER/ros2_fener/install/fener_package --editable --build-directory /home/sezer/FENER/ros2_fener/build/fener_package/build --no-deps install_data --install-dir /home/sezer/FENER/ros2_fener/install/fener_package
+[0.652s] running develop
+[0.756s] running egg_info
+[0.756s] writing fener_package.egg-info/PKG-INFO
+[0.756s] writing dependency_links to fener_package.egg-info/dependency_links.txt
+[0.757s] writing entry points to fener_package.egg-info/entry_points.txt
+[0.757s] writing requirements to fener_package.egg-info/requires.txt
+[0.757s] writing top-level names to fener_package.egg-info/top_level.txt
+[0.779s] reading manifest file 'fener_package.egg-info/SOURCES.txt'
+[0.779s] writing manifest file 'fener_package.egg-info/SOURCES.txt'
+[0.801s] running build_ext
+[0.801s] Creating /home/sezer/FENER/ros2_fener/install/fener_package/lib/python3.8/site-packages/fener-package.egg-link (link to .)
+[0.802s] Installing bno055_pub script to /home/sezer/FENER/ros2_fener/install/fener_package/lib/fener_package
+[0.802s] Installing driver script to /home/sezer/FENER/ros2_fener/install/fener_package/lib/fener_package
+[0.802s] Installing lidar_pub script to /home/sezer/FENER/ros2_fener/install/fener_package/lib/fener_package
+[0.802s] Installing object_detector script to /home/sezer/FENER/ros2_fener/install/fener_package/lib/fener_package
+[0.802s] Installing solo_cam_pub script to /home/sezer/FENER/ros2_fener/install/fener_package/lib/fener_package
+[0.802s] 
+[0.802s] Installed /home/sezer/FENER/ros2_fener/build/fener_package
+[0.802s] running install_data
+[0.802s] copying launch/fener_TF.launch.py -> /home/sezer/FENER/ros2_fener/install/fener_package/share/fener_package
+[0.817s] Invoked command in '/home/sezer/FENER/ros2_fener/build/fener_package' returned '0': PYTHONPATH=/home/sezer/FENER/ros2_fener/install/fener_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/FENER/ros2_fener/install/fener_package --editable --build-directory /home/sezer/FENER/ros2_fener/build/fener_package/build --no-deps install_data --install-dir /home/sezer/FENER/ros2_fener/install/fener_package
