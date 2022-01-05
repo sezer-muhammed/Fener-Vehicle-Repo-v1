@@ -29,7 +29,7 @@ def main(args=None):
         if euler_1_old - sensor_euler[0] < -340:
             sensor_turn += -1
         sensor_euler[0] += sensor_turn * 360
-        euler_1_old = euler_1_old_new
+        euler_1_old = euler_1_old_new #try copy
         
         imu_res.data = list(sensor_gyro + tuple(sensor_euler))
         publisher.publish(imu_res)
